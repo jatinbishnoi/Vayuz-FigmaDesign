@@ -10,8 +10,10 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="flex">
+      {/* Sidebar always visible on desktop, toggle on mobile */}
       <Sidebar />
-      <main className="ml-56 w-full">
+      {/* On mobile, no margin; On desktop, margin for sidebar */}
+      <main className="w-full md:ml-56">
         <Header />
         <Hero />
         <AutoSection />
