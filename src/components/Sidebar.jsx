@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "../assets/logo.jpeg";
-import sample from "../assets/sample.jpeg"; // Move your "download (3).jpeg" here & rename for consistency
+//import sample from "../assets/sample.jpeg"; // Move your "download (3).jpeg" here & rename for consistency
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
