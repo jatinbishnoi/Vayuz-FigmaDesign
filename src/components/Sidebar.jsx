@@ -40,7 +40,7 @@ export default function Sidebar() {
 
         {/* Footer Image */}
         <div className="mt-auto">
-          <img src={sample} alt="sample" className="rounded-lg w-40" />
+          
           <p className="text-xs mt-2 text-center px-2">
             Lorem ipsum dolor sit amet consectetur.
           </p>
